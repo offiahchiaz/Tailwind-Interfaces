@@ -1,0 +1,16 @@
+{
+  "name": "xu-magazine",
+  "version": "1.0.0",
+  "description": "Building https://www.xumagazine.com/ with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build ./src/styles.css -o ./public/styles.css"
+  },
+  "author": "Chiazor Offiah",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.4"
+  }
+}
