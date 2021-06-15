@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         primary: "#12141d",
         secondary: "#13b5ea",
-        btncolor: "#e6027e"
+        btncolor: "#e6027e",
+        card: "#1e2029",
+        formcolor: "#767676",
       },
       fontFamily: {
         body: ['Nunito']
@@ -16,5 +18,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
