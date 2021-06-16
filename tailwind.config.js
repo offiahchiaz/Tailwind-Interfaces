@@ -12,6 +12,9 @@ module.exports = {
       },
       fontFamily: {
         body: ['Nunito']
+      },
+      minHeight: {
+        panel: "528px"
       }
     },
   },
