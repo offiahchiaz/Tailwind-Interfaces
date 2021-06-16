@@ -9,12 +9,13 @@ module.exports = {
         btncolor: "#e6027e",
         card: "#1e2029",
         formcolor: "#767676",
+        forminput: "#3f4149"
       },
       fontFamily: {
         body: ['Nunito']
       },
       minHeight: {
-        panel: "528px"
+        panel: "528px"  
       }
     },
   },
