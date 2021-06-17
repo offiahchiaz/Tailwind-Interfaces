@@ -11,7 +11,8 @@ module.exports = {
         formcolor: "#767676",
         forminput: "#3f4149",
         start: "#171921",
-        end: "#353536"
+        end: "#353536",
+        footercard: "#292b34"
       },
       fontFamily: {
         body: ['Nunito']
