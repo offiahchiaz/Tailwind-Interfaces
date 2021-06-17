@@ -240,9 +240,6 @@
             </div>
         </div> <!-- third section ends here -->
 
-
-        
-
         <div class="grid grid-cols-2 mt-8 w-full bg-card rounded-xl shadow-lg"> <!-- fourth section -->
             <div class="col-span-1 p-8">
                 <h2 class="font-bold text-white text-3xl mb-28">
@@ -450,23 +447,69 @@
             </div>
         </div> <!-- eight section ends here -->
 
-        <div> <!-- ninth section -->
-            <div>
-                <h2>
-                    Never miss an issue!
-                    <span>
-                        Subscribe to our newsletter so that you're notified
-                         instantly when new issues are released.
+        <div class="grid grid-cols-2 mt-8 w-full bg-card rounded-xl shadow-lg"> <!-- ninth section -->
+            <div class="col-span-1 p-8">
+                <h2 class="font-bold text-white text-3xl mb-36">
+                    Never miss an issue!  <br>
+                    <span class="text-gray-500">
+                        Subscribe to our newsletter so that <br> you're notified instantly when new <br> issues are released.
                     </span>
                 </h2>
 
-                <p>We hate spam too. We NEVER sell our mailing list.</p>
+                <p class="font-semibold text-lg text-gray-500">We hate spam too. We NEVER sell our mailing list.</p>
             </div>
 
-            <div>
-                <!-- A form goes here -->
+            <div class="col-span-1 p-8">
+                <form action="#" method="post">
+                    <div class="grid grid-cols-2">
+                        <div class="col-span-1 mt-4">
+                            <input class="w-full py-5 px-6 rounded-lg shadow-sm bg-forminput border-0 focus:border-0 focus:ring-0 focus:text-white  focus:bg-formcolor focus:outline-none" id="name" name="name" autocomplete="name" 
+                            type="text" placeholder="Your name" required />
+                        </div>
+                        <div class="col-span-1 mt-4 ml-2">
+                            <select class="w-full mr-4 py-5 px-6 rounded-lg shadow-sm bg-forminput border-0 focus:border-0 focus:ring-0  focus:outline-none" name="country" id="country">
+                                <option value="">Your country</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Asia">Asia</option>
+                                <option value="New Zealand">New Zealand</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="USA/Canada">USA/Canada</option>
+                                <option value="Rest of world">Rest of world</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mt-2">
+                        <div class="mt-4">
+                            <input class="w-full py-5 px-6 rounded-lg shadow-sm bg-forminput border-0 focus:border-0 focus:ring-0 focus:text-white  focus:bg-formcolor focus:outline-none" id="email" name="email" autocomplete="email" 
+                            type="email" placeholder="Email Address" required />
+                        </div>
+                    </div>
+
+                    <div class="mt-2">
+                        <button class="w-full py-5 px-6 rounded-lg shadow-sm bg-btncolor hover:bg-opacity-80">Subscribe for <span class="uppercase">free</span> </button>
+                    </div>
+
+                    <div class="flex items-center mt-2">
+                        <input class="bg-forminput border-0 rounded text-btncolor" type="checkbox" name="terms-and-policy" id="terms-and-policy" />
+
+                        <label class="ml-2 block text-base font-bold text-gray-500" for="terms-and-policy">
+                            I have read and agree to the 
+                            <a class="text-white" href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                </form>
+                <div class="flex mt-6">
+                    <a class="flex items-center bg-blue-500 shadow text-sm py-1 px-2 rounded-md hover:bg-opacity-80" href="">
+                        <img class="w-4 ml-2" src="img/twitter.svg" alt="">
+                        <span class="ml-2">Follow @xumagazine</span>
+                    </a>
+                    <a class="bg-white ml-1 text-gray-800 py-1 px-2 text-xs shadow rounded-md hover:underline" href="#">13K followers</a>
+                </div>
             </div>
-        </div> <!-- ninth section ends here -->
+
+        </div> <!-- ninth section end here -->
 
         <div> <!-- tenth section -->
 
