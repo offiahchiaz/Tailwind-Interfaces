@@ -9,7 +9,9 @@ module.exports = {
         btncolor: "#e6027e",
         card: "#1e2029",
         formcolor: "#767676",
-        forminput: "#3f4149"
+        forminput: "#3f4149",
+        start: "#171921",
+        end: "#353536"
       },
       fontFamily: {
         body: ['Nunito']
