@@ -18,7 +18,8 @@ module.exports = {
         body: ['Nunito']
       },
       minHeight: {
-        panel: "528px"  
+        panel: "528px",
+        mobilepanel: "420px"  
       }
     },
   },
